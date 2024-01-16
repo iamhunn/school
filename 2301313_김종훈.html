@@ -1,0 +1,108 @@
+<!--
+    1. 파일명 : 2301313_김종훈.html
+    2. 작성자 학번 : 2301313
+    3. 작성자 이름 : 김종훈
+    4. 작성일 : 2023년 3월 31일 23시 32분
+    5. 파일내용 : 2023년 4월 달력 만들기
+-->
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Calendar</title>
+    <style>
+      table,
+      tr,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        text-align: center;
+      }
+      table {
+        margin: auto;
+        width: 70%;
+      }
+      h1 {
+        text-align: center;
+      }
+
+      #sunday {
+        color: red;
+      }
+      #saturday {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>2023년 4월 달력</h1>
+    <table>
+      <thead>
+        <tr>
+          <th id="sunday">일</th>
+          <th>월</th>
+          <th>화</th>
+          <th>수</th>
+          <th>목</th>
+          <th>금</th>
+          <th id="saturday">토</th>
+        </tr>
+      </thead>
+      <tr>
+        <td id="sunday"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td id="saturday">1</td>
+      </tr>
+      <tr>
+        <td id="sunday">2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+        <td id="saturday">8</td>
+      </tr>
+      <tr>
+        <td id="sunday">9</td>
+        <td>10</td>
+        <td>11</td>
+        <td>12</td>
+        <td>13</td>
+        <td>14</td>
+        <td id="saturday">15</td>
+      </tr>
+      <tr>
+        <td id="sunday">16</td>
+        <td>17</td>
+        <td>18</td>
+        <td>19</td>
+        <td>20</td>
+        <td>21</td>
+        <td id="saturday">22</td>
+      </tr>
+      <tr>
+        <td id="sunday">23</td>
+        <td>24</td>
+        <td>25</td>
+        <td>26</td>
+        <td>27</td>
+        <td>28</td>
+        <td id="saturday">29</td>
+      </tr>
+      <tr>
+        <td id="sunday">30</td>
+        <td>31</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td id="saturday"></td>
+      </tr>
+    </table>
+  </body>
+</html>
